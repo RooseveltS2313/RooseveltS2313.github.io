@@ -1,6 +1,5 @@
 body {
 background-color:#e6e6e6;
-margin:50px;
 }
 
 h1 {
@@ -14,6 +13,7 @@ color:#000000;
 }
 
 p {
+margin:150px;
 font-size: 11px;
 color:#000000;
 
@@ -22,7 +22,7 @@ color:#000000;
 text-align: right;
 color:brown;
 }
-.skills {
+span {
 background-color:blue;
 color:#FFFFFF;
 padding:30px;
