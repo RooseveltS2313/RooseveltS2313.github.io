@@ -26,7 +26,11 @@ background-color:blue;
 color:#FFFFFF;
 text-align: center;
 }
-.separate {
-background-color: black;
-font-size:5px;
+hr {
+display: block;
+height: 2px;
+border:0;
+border-top: 2px solid #ccc;
+margin: 1em 0;
+padding: 0;
 }
