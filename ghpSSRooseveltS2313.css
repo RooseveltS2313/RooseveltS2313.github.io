@@ -1,12 +1,18 @@
 body {
-background-color: #F0F8FF;
+background-color:#e6e6e6;
+margin:auto
 }
+
 h1 {
-color:#252525;
+text-align:center;
+color:#000000;
 }
+
 h3 {
-color:#252525;
+text-align:center;
+color:#000000;
 }
+
 p {
-color:#252525;
+color:#000000;
 }
