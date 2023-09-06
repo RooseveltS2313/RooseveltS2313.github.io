@@ -13,7 +13,6 @@ color:#000000;
 }
 
 p {
-margin:150px;
 font-size: 11px;
 color:#000000;
 
@@ -22,9 +21,10 @@ color:#000000;
 text-align: right;
 color:brown;
 }
-span {
+.skills {
 background-color:blue;
 color:#FFFFFF;
-padding:30px;
+padding-right: 15px;
+padding-left: 15px;
 text-align: center;
 }
