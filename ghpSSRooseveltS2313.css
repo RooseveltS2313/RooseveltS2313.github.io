@@ -1,6 +1,6 @@
 body {
 background-color:#e6e6e6;
-margin:auto
+margin:50px;
 }
 
 h1 {
@@ -14,5 +14,17 @@ color:#000000;
 }
 
 p {
+font-size: 11px;
 color:#000000;
+
+}
+.moreInfo {
+text-align: right;
+color:brown;
+}
+.skills {
+background-color:blue;
+color:#FFFFFF;
+padding:30px;
+text-align: center;
 }
