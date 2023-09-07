@@ -2,7 +2,7 @@ body {
 background-color:#F8FFFF;
 }
 
-h1 {
+h2 {
 text-align:center;
 color:#000000;
 }
@@ -42,7 +42,7 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #C8CCCC;
+background-color: #333333;
 }
 
 .navigationItem {
@@ -56,7 +56,7 @@ text-decoration: none;
 .navigationItemActive {
 display: block;
 padding: 21px 24px;
-color: #ffffff;
+color: green;
 text-align: center;
 text-decoration: none;
 background-color: #04CCAA;
