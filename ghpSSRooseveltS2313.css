@@ -34,18 +34,26 @@ border-top: 2px solid #000;
 margin: 1em 0;
 padding: 0;
 }
-.navigation {
+
+.navigationBar {
+list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-position: -webkit-sticky;
-position: sticky;
-top: 0;
-width: 100%;
-border: 1px solid #e7e7e7;
-background-color: #f3f3f3;
+background-color: #C8CCCC;
+}
+.navigationItem {
+display: block;
+padding: 21px 24px;
+color: #ffffff;
+text-align: center;
+text-decoration: none;
+
+}
+li a:hover {
+  background-color: #A8AAAA;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #04CCAA;
 }
