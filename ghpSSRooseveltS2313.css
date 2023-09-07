@@ -2,8 +2,9 @@ body {
 background-color:#F8FFFF;
 }
 
-h2 {
+h1 {
 text-align:center;
+font-family: 'Brush Script MT', cursive;
 color:#000000;
 }
 
@@ -22,10 +23,8 @@ color:#000000;
 text-align: right;
 color:brown;
 }
-#skills {
-background-color:blue;
-color:#FFFFFF;
-text-align: center;
+.show {
+font-size: 18px;
 }
 
 hr {
