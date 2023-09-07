@@ -1,5 +1,5 @@
 body {
-background-color:#e6e6e6;
+background-color:#F8FFFF;
 }
 
 h1 {
@@ -30,7 +30,22 @@ hr {
 display: block;
 height: 2px;
 border:0;
-border-top: 2px solid #fff;
+border-top: 2px solid #000;
 margin: 1em 0;
 padding: 0;
+}
+.navigation {
+margin: 0;
+padding: 0;
+overflow: hidden;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+width: 100%;
+border: 1px solid #e7e7e7;
+background-color: #f3f3f3;
+}
+
+.active {
+  background-color: #04AA6D;
 }
