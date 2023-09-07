@@ -17,6 +17,7 @@ font-size: 14px;
 color:#000000;
 
 }
+
 .moreInfo {
 text-align: right;
 color:brown;
@@ -26,6 +27,7 @@ background-color:blue;
 color:#FFFFFF;
 text-align: center;
 }
+
 hr {
 display: block;
 height: 2px;
@@ -42,18 +44,28 @@ padding: 0;
 overflow: hidden;
 background-color: #C8CCCC;
 }
+
 .navigationItem {
 display: block;
 padding: 21px 24px;
 color: #ffffff;
 text-align: center;
 text-decoration: none;
-
 }
+
+.navigationItemActive {
+display: block;
+padding: 21px 24px;
+color: #ffffff;
+text-align: center;
+text-decoration: none;
+background-color: #04CCAA;
+}
+
+.navigationLi{
+float:left;
+}
+
 li a:hover {
-  background-color: #A8AAAA;
-}
-
-.active {
-  background-color: #04CCAA;
+  background-color: #080808;
 }
