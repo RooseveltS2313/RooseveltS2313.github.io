@@ -1,48 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head> 
-	<title>Roosevelt Seymour - Portfolio</title>
+	<title>Roosevelt Seymour's Portfolio Website</title>
     <link rel="stylesheet" type="text/css" href="https://RooseveltS2313.github.io/mainScroll.css">
+    <script>
+      window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+    }
+    </script>
+</head>
 <body>
 <div id="navbar">
-  <a href="#section1">Top</a>
-  <a href="#section2">Experience</a>
-  <a href="#section3">Education</a>
   <a href="#section4">Contacts</a>
+  <a href="#section3">Education</a>
+  <a href="#section2">Experience</a>
+  <a href="#section1">Top</a>
 </div>
 <p><br></p>
 <div class="top" id="section1">
-<p>Welcome to the GitHub portfolio page of </p>
- <h1 class = "center">Roosevelt O Seymour Jr</h1> 
+ <h1 class = "centerName">Roosevelt O Seymour Jr</h1> 
  <hr/>
 
-<h3>Some quick snippets of my life are: </h3>
-  <p>23 years old<br>
-    Computer Science Graduate<br>
-    Eager to Work For You.<br>
-    Practiced in HTML, JS, CSS<br>
-    Educated in Java<br>
-    Currently Under Cognixia as a JUMP Program Graduate<br>
-    Living in Florida<br>
-    Open to Move Within the US
+<h3>Quick rundown: </h3>
+  <p>
+    - 23 year old male<br>
+    - Computer Science Bachelors Graduate<br>
+    - Practiced in HTML, JS, CSS<br>
+    - Trained in Java, Self taught in Python<br>
+    - Living in Lauderhill, Florida
   </p>
 </div>
 <hr/>
 <div class="mid" id="section2">
+  <br>
 <h3>Experience</h3>
-<p> <b>Cognixia</b>-Lauderhill, Florida<br><i>Java Developer</i> </p>
+<p> <b>Cognixia</b>-Remote<br><i>Java Developer</i> </p>
 
 <p>Cognixia’s JUMP program is a hyper-intense technical training program that gives top STEM talent from across the U.S. the equivalent of 12-18 months of industry experience. Not only do they up-skill their technical abilities, they also evolve their digital mindset to successfully adapt and utilize technology in an efficient manner so they can JUMP start their careers via deployment with Collabera clients.</p>
 <p>JUMP graduate pursuing a Java Development career, looking to combine nearly 18 months of industry equivalence experience with a strong digital mindset to become a valued asset to your organization.</p>
 <img class="img" src="https://RooseveltS2313.github.io/Images/JUMPropng.png" alt="Cognixia JUMP Program Certificate">
 
-<p>Provided the oppurtunity to successfully become AWS Cloud Practioner Certified gaining experience using Amazon EC2, S3s, and RDS. Can easily be further trained or supported to work with AWS frameworks in a professional setting. </p>
-<img class="img" src="https://RooseveltS2313.github.io/Images/aws-ccp.png" alt="Amazon Cloud Practioner Badge/Certificate">
+<p>Amazon Cloud Practioner Certified with experience using Amazon EC2, S3s, and RDS. Can easily be further trained or supported to work with AWS frameworks in a professional setting. </p>
+<img class="img2" src="https://RooseveltS2313.github.io/Images/aws-ccp.png" alt="Amazon Cloud Practioner Badge/Certificate">
 
 <p>Contributed to styling and frontend design for the partnered Ascendion Hackathon Project. The project involved connecting a React frontend to a Python backend to create an AI chatbot that runs on ChatGPT 3.5 or 4. The AI chatbot would be given access to a database hosted on a AWS RDS or other server where so that the chatbot could answer users questions regarding database design, additions, or information.</p>
-<a href="https://github.com/RooseveltS2313" target="blank">GitHub Hackathon</a>
+<a href="https://github.com/RooseveltS2313" target="blank">Click Here to see the Github Repo</a>
 <hr/>
 <h3>Previous Employment</h3>
+<p><b>Cognixia</b>-Remote<br><i>Java Developer</i> </p>
+<ul>
+	<li >Technical Articulation – presented Back End Application development after regular SCRUM Sprints, as well as created USER Stories for Sprint Planning</li>
+	<li >Developed a Full suite Spring Boot REST API, implementing Spring Security, Hibernate, JPA, and Mockito Test Suite</li>
+</ul>
+
+
 <p><b>Nova Southern University</b>-Davie, Florida<br><i>OIIT Student Assistant Library Technician</i> </p>
 
 <ul>
@@ -55,27 +72,20 @@
 <div class="mid2" id="section3">
 <h3>Education</h3>
 <p> <b>Nova Southeastern University</b>- Davie, Florida <br>
-A Bachelors of Science in Computer Science. Completed August 2022 <br> </p>	
-<img class="img" src="https://RooseveltS2313.github.io/Images/NSUDegree.png" alt="Bachelors Degree in Computer Science from Nova Southeastern University">
+A Bachelors of Science in Computer Science. Completed July 2022 <br> </p>	
+<img class="img2" src="https://RooseveltS2313.github.io/Images/NSUDegree.png" alt="Bachelors Degree in Computer Science from Nova Southeastern University">
 </div>
 <hr>
 <div class="bot" id="section4">
-<p>Feel free to contact me or look at my current activity via:</p>
-<a href="https://github.com/RooseveltS2313" target="blank">GitHub</a>
+<h3>Contacts</h3>
+<p>Feel free to contact me!</p>
+<a href="https://github.com/RooseveltS2313" target="blank">GitHub</a> <br>
 <a href="https://www.linkedin.com/in/rooseveltseymour-jr-66a137238/" target="blank">Linkedin</a> </p>
-<p class="moreInfo">Email: RSeymourJR04@outlook.com Mobile Phone: (954) 326-5638 </p>
+<p class="moreInfo">
+  Email: RSeymourJR04@outlook.com <br>
+  Mobile Phone: (954) 326-5638
+</p>
 </div>
 
-<script>
-  window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-}
-</script>
 </body>
 </html>
